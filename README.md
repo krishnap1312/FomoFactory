@@ -19,6 +19,69 @@ This is a mini-website that collects and displays real-time price data for stock
    git clone https://github.com/yourusername/stock-crypto-tracker.git
    cd stock-crypto-tracker
 
+Here's a list of the dependencies you need to install for your project, including both the backend and frontend:
+
+### Backend Dependencies
+1. **Express**: Web framework for Node.js.
+   ```bash
+   npm install express
+   ```
+2. **Mongoose**: MongoDB object modeling tool.
+   ```bash
+   npm install mongoose
+   ```
+3. **Axios**: Promise-based HTTP client for making API requests.
+   ```bash
+   npm install axios
+   ```
+4. **dotenv**: To manage environment variables.
+   ```bash
+   npm install dotenv
+   ```
+
+### Frontend Dependencies
+1. **Next.js**: React framework for server-side rendering and static site generation.
+   ```bash
+   npm install next react react-dom
+   ```
+2. **Axios**: For making API requests from the frontend.
+   ```bash
+   npm install axios
+   ```
+3. **Redux**: State management library.
+   ```bash
+   npm install @reduxjs/toolkit react-redux
+   ```
+4. **TypeScript**: JavaScript with type definitions.
+   ```bash
+   npm install typescript @types/react @types/node
+   ```
+5. **Tailwind CSS** (optional, if you're using it for styling):
+   ```bash
+   npm install tailwindcss postcss autoprefixer
+   ```
+
+### Development Dependencies
+You may also want to install some development dependencies:
+1. **Nodemon**: Utility that automatically restarts the server when file changes are detected (for backend).
+   ```bash
+   npm install --save-dev nodemon
+   ```
+
+### Installation Commands
+You can run the following commands in your terminal to install all the necessary dependencies:
+
+```bash
+# Backend
+cd backend
+npm install express mongoose axios dotenv
+
+# Frontend
+cd ../frontend
+npm install next react react-dom axios @reduxjs/toolkit react-redux typescript @types/react @types/node
+```
+
+Adjust the list according to your project's specific requirements!
    
 2. **Set up the backend:**
    a. *Navigate to the backend directory*
